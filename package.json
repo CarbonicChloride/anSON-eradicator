@@ -1,1 +1,16 @@
-
+{
+  "name": "anson-eradicator",
+  "version": "1.0.0",
+  "description": "A joke Slack bot that kicks a specific user from a channel on join.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
